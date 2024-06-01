@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fea854a5-611c-4d77-b8ab-c114d6c43535" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pagefactory/ManageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/propertyreader/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/utility/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testbase/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/DataSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/resources/runners/jobsearchtest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/driverfactory/ManageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/DurationOfStayPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/FamilyImmigrationStatusPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ResultPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/SelectNationalityPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/StartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/WorkTypePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/propertyreader/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/utility/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testbase/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testsuite/VisaConfirmationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/smoke.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/visaconfirmationtest.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2hFRSEP0A7qsQI2SpPAcPRgeiRN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml.executor": "Run",
+    "TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml.executor": "Run",
+    "TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths.executor": "Run",
+    "TestNG.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card.executor": "Run",
+    "TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism.executor": "Run",
+    "TestNG.VisaConfirmationTest.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  }
+}]]></component>
+  <component name="RunManager" selected="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml">
+    <configuration name="C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="home-office-visa-check" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="home-office-visa-check" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/runners/visaconfirmationtest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="home-office-visa-check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.uk.check.visa.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gov.uk.check.visa.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+      <option name="METHOD_NAME" value="aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="home-office-visa-check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.uk.check.visa.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gov.uk.check.visa.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+      <option name="METHOD_NAME" value="aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VisaConfirmationTest.anAustralianComingToUKForTourism" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="home-office-visa-check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.uk.check.visa.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gov.uk.check.visa.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+      <option name="METHOD_NAME" value="anAustralianComingToUKForTourism" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml" />
+        <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml" />
+        <item itemvalue="TestNG.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" />
+        <item itemvalue="TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" />
+        <item itemvalue="TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fea854a5-611c-4d77-b8ab-c114d6c43535" name="Changes" comment="" />
+      <created>1711883623522</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711883623522</updated>
+    </task>
+    <servers />
+  </component>
+</project>

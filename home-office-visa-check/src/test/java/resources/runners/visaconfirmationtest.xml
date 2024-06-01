@@ -1,0 +1,8 @@
+<!--<!DOCTYPE suite SYSTEM "https://www.gov.uk/check-uk-visa">-->
+<suite name="testsuite">
+    <test name="VisaConfirmationTest">
+        <classes>
+            <class name="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+        </classes>
+    </test>
+</suite>
