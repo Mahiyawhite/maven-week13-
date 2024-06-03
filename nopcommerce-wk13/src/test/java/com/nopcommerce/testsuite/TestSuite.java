@@ -20,7 +20,7 @@ public class TestSuite extends TestBase {
         clickOnElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/a"));
 
         /*1.2 Click on Desktop*/
-        clickOnElement(By.xpath("/html/body/div[6]/div[2]/ul[1]/li[1]/ul/li[1]/a"));
+        clickOnElement(By.linkText("Desktops"));
 
         /*1.3 Select Sort By position "Name: Z to A"*/
         selectByContainsTextFromDropDown(By.xpath("//*[@id='products-orderby']"), "Name: Z to A");
@@ -137,7 +137,7 @@ public class TestSuite extends TestBase {
         driver.findElement(By.xpath("//*[@id='BillingNewAddress_City']")).sendKeys("slough");
         driver.findElement(By.xpath("//*[@id='BillingNewAddress_Address1']")).sendKeys("22, AltonRoad Road");
         driver.findElement(By.xpath("//*[@id='BillingNewAddress_ZipPostalCode']")).sendKeys("sl0 7uj");
-        driver.findElement(By.xpath("//*[@id='BillingNewAddress_ZipPostalCode']")).sendKeys("00848752140");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_PhoneNumber']")).sendKeys("07950209041");
 
         //2.23 Click on “CONTINUE”
         clickOnElement(By.xpath("//*[@id='billing-buttons-container']/button[2]"));
@@ -150,12 +150,13 @@ public class TestSuite extends TestBase {
 
         //2.26 Select Radio Button “Credit Card”
         clickOnElement(By.xpath("//*[@id='paymentmethod_1']"));
+        clickOnElement(By.cssSelector("#payment-method-buttons-container > button"));
 
         //2.27 Select “Master card” From Select credit card dropdown
-        clickOnElement(By.xpath("//*[@id='CreditCardType']"));
-        WebElement Visa = driver.findElement(By.xpath("//*[@id='CreditCardType']"));
+        clickOnElement(By.cssSelector("[class='dropdownlists'] :nth-of-type(2)"));
+        /*WebElement Visa = driver.findElement(By.xpath("//*[@id='CreditCardType']"));
         Select select = new Select(Visa);
-        select.selectByVisibleText("“Master card”");//
+        select.selectByVisibleText("“Master card”");//*/
 
         //2.28 Fill all the details
         driver.findElement(By.xpath("//*[@id='CardholderName']")).sendKeys("Pooja Patel");
@@ -166,8 +167,7 @@ public class TestSuite extends TestBase {
         driver.findElement(By.xpath("//*[@id='payment-info-buttons-container']/button")).click();
 
         // Step 2.29: Click on “CONTINUE”
-        WebElement paymentInfoContinueButton = driver.findElement(By.xpath("//button[@onclick='PaymentInfo.save()']"));
-        paymentInfoContinueButton.click();
+        clickOnElement(By.xpath("//button[@onclick='PaymentInfo.save()']"));
 
         // Step 2.30: Verify “Payment Method” is “Credit Card”
         SoftAssert softAssert6 = new SoftAssert();
@@ -180,10 +180,10 @@ public class TestSuite extends TestBase {
 
         // Step 2.33: Verify Total is “$2,950.00”
         WebElement orderTotalAmount = driver.findElement(By.xpath("//span[@class='value-summary']//strong"));
-        assert orderTotalAmount.getText().equals("$2,950.00") : "Order total is not $2,950.00";*/
+        assert orderTotalAmount.getText().equals("$2,950.00") : "Order total is not $2,950.00"*/
 
         // Step 2.34: Click on “CONFIRM”
-        clickOnElement(By.xpath("//button[@onclick='ConfirmOrder.save()']"));
+        clickOnElement(By.cssSelector("#confirm-order-buttons-container > button)"));
 
         /*// Step 2.35: Verify the Text “Thank You”
         WebElement thankYouText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='Thank you']")));

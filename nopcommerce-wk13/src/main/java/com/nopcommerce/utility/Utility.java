@@ -17,8 +17,8 @@ import java.util.UUID;
 
 public class Utility extends ManageDriver {
     public void clickOnElement(By by) {
-        WebElement Moresearch = driver.findElement(by);
-        Moresearch.click();
+        WebElement countinue = driver.findElement(by);
+        countinue.click();
     }
     public String getTextFromElement(By by) {
         return driver.findElement(by).getText();
