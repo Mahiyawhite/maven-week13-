@@ -4,56 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea854a5-611c-4d77-b8ab-c114d6c43535" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="fea854a5-611c-4d77-b8ab-c114d6c43535" name="Changes" comment="my push to repo">
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pagefactory/ManageDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/propertyreader/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/utility/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testbase/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/DataSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/resources/runners/jobsearchtest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/ResultPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/driverfactory/ManageDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/DurationOfStayPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/FamilyImmigrationStatusPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ResultPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/SelectNationalityPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/StartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/WorkTypePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/propertyreader/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/utility/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testbase/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testsuite/VisaConfirmationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/smoke.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/runners/visaconfirmationtest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/main/java/com/nopcommerce/driverfactory/ManageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/main/java/com/nopcommerce/propertyreader/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/main/java/com/nopcommerce/utility/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testbase/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/Electronics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/TestSuite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/TopMenuTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/resources/runners/electronics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/resources/runners/testsuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/StartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testsuite/VisaConfirmationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testsuite/VisaConfirmationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/runners/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/runners/smoke.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,35 +52,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2hFRSEP0A7qsQI2SpPAcPRgeiRN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml.executor": "Run",
-    "TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml.executor": "Run",
-    "TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths.executor": "Run",
-    "TestNG.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card.executor": "Run",
-    "TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism.executor": "Run",
-    "TestNG.VisaConfirmationTest.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.VisaConfirmationTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml">
+}</component>
+  <component name="RunManager" selected="TestNG.VisaConfirmationTest">
     <configuration name="C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="home-office-visa-check" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" />
@@ -119,6 +101,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisaConfirmationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="home-office-visa-check" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gov.uk.check.visa.testsuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gov.uk.check.visa.testsuite" />
+      <option name="MAIN_CLASS_NAME" value="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="home-office-visa-check" />
       <extension name="coverage">
@@ -130,24 +129,6 @@
       <option name="PACKAGE_NAME" value="gov.uk.check.visa.testsuite" />
       <option name="MAIN_CLASS_NAME" value="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
       <option name="METHOD_NAME" value="aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="home-office-visa-check" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="gov.uk.check.visa.testsuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="gov.uk.check.visa.testsuite" />
-      <option name="MAIN_CLASS_NAME" value="gov.uk.check.visa.testsuite.VisaConfirmationTest" />
-      <option name="METHOD_NAME" value="aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -175,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.VisaConfirmationTest" />
+        <item itemvalue="TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism" />
+        <item itemvalue="TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" />
         <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml" />
         <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml" />
-        <item itemvalue="TestNG.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card" />
-        <item itemvalue="TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" />
-        <item itemvalue="TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +173,28 @@
       <option name="presentableId" value="Default" />
       <updated>1711883623522</updated>
     </task>
+    <task id="LOCAL-00001" summary="my first push to repo">
+      <option name="closed" value="true" />
+      <created>1717207020710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717207020710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="my push to repo">
+      <option name="closed" value="true" />
+      <created>1717207122874</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1717207122874</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="my first push to repo" />
+    <MESSAGE value="my push to repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="my push to repo" />
   </component>
 </project>
