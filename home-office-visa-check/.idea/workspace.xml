@@ -8,7 +8,11 @@
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/src/test/java/org/example/AppTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/DurationOfStayPage.java" beforeDir="false" />
@@ -184,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717452538469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="my push to repo">
+      <option name="closed" value="true" />
+      <created>1717512261494</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717512261494</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
