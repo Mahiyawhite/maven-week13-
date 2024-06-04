@@ -1,10 +1,11 @@
 package com.cvlibrary.pages;
 
 import com.cvlibrary.pagefactory.ManageDriver;
+import com.cvlibrary.utility.Utility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage extends ManageDriver {
+public class HomePage extends Utility {
 
 
     // Locators

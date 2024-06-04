@@ -54,12 +54,10 @@ public class Electronics extends TestBase {
         String expectingCellphoneMsg = "Cell phones";
         softAssertCell.assertEquals(actualCellphoneMsg, expectingCellphoneMsg);
 
-        /*2.4 Click on List View Tab*/
+        //2.4 Click on List View Tab
         clickOnElement(By.xpath("//*[@id='main']/div/div[3]/div/div[2]/div[1]/div[1]/a[2]"));
 
         //2.5 Click on product name “Nokia Lumia 1020” link
-        /*((JavascriptExecutor) driver).executeScript("window.scrollBy(0, 500);");
-        driver.findElement(By.xpath("//*[@id='main']/div/div[3]/div/div[2]/div[2]/div[2]/div/div/div[3]/div/div[2]/h2/a")).click();*/
         WebElement button = driver.findElement(By.xpath("//*[text()='Nokia Lumia 1020']"));
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOf(button));
@@ -122,7 +120,7 @@ public class Electronics extends TestBase {
         softAssertAmount.assertEquals(actualAmount,expectedAmount);
 
         //2.15 click on checkbox “I agree with the terms of service”
-        clickOnElement(By.xpath("//input[@id='termsofservice']"));
+        clickOnElement(By.xpath("//div[@class='terms-of-service']/label"));
 
         //2.16 Click on “CHECKOUT”
         clickOnElement(By.xpath("//button[@id='checkout']"));
@@ -162,7 +160,6 @@ public class Electronics extends TestBase {
         String expectedRegText = "Your registration completed";
         softAssertRegText.assertEquals(expectedRegText,actualRegText);
 
-        //2.23 Click on “CONTINUE” tab
         clickOnElement(By.xpath("//*[@id='main']/div/div/div/div[2]/div[2]/a"));
 
         //2.24 Verify the text “Shopping card”
@@ -171,18 +168,24 @@ public class Electronics extends TestBase {
         String expectedShoppingTxt = "Shopping cart";
         softAssertShopping.assertEquals(actualShoppingTxt,expectedShoppingTxt);
 
-        /*2.25 click on checkbox “I agree with the terms of service”*/
+        //2.25 click on checkbox “I agree with the terms of service”
         clickOnElement(By.cssSelector("div[class='terms-of-service']>label"));
 
         //2.26 Click on “CHECKOUT”
         clickOnElement(By.xpath("//button[@id='checkout']"));
 
-        /*2.27 Fill the Mandatory fields*/
-        driver.findElement(By.id("Email")).sendKeys(emailId);
-        driver.findElement(By.id("Password")).sendKeys(loginPassword);
-        clickOnElement(By.linkText("Log in"));
+        /*//2.27 Fill the Mandatory fields
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_FirstName']")).sendKeys("");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_LastName']")).sendKeys("");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_Email']")).sendKeys(emailId);
+        selectByVisibleTextFromDropDown(By.xpath("//*[@id='BillingNewAddress_CountryId']"),"London");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_CountryId']")).sendKeys("London");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_City']")).sendKeys("slough");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_Address1']")).sendKeys("22, AltonRoad Road");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_ZipPostalCode']")).sendKeys("sl0 7uj");
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_PhoneNumber']")).sendKeys("07950209041");*/
 
-        /*2.28 Click on “CONTINUE”*/
+        //2.28 Click on “CONTINUE”
         clickOnElement(By.cssSelector("div[id='billing-buttons-container']>button:nth-of-type(2)"));
 
         // Step 2.29: Click on Radio Button “2nd Day Air ($0.00)”
@@ -196,6 +199,8 @@ public class Electronics extends TestBase {
         // Step 2.31: Select Radio Button “Credit Card”
         WebElement creditCardRadioButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("paymentmethod_1")));
         creditCardRadioButton.click();
+
+        clickOnElement(By.xpath("//*[@id='payment-method-buttons-container']/button"));
 
         // Step 2.32: Select “Visa” From Select credit card dropdown
         WebElement paymentMethodContinueButton = driver.findElement(By.xpath("//button[@onclick='PaymentMethod.save()']"));
@@ -214,43 +219,48 @@ public class Electronics extends TestBase {
         // Step 2.34: Click on “CONTINUE”
         clickOnElement(By.xpath("//button[@onclick='PaymentInfo.save()']"));
 
-        /*// Step 2.35: Verify “Payment Method” is “Credit Card”
+        // Step 2.35:Verify “Payment Method” is “Credit Card”
+        SoftAssert softAssertPayment= new SoftAssert();
         WebElement paymentMethodVerification = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//li[@class='payment-method']")));
         assert paymentMethodVerification.getText().contains("Credit Card") : "Payment method is not Credit Card";
 
         // Step 2.36: Verify “Shipping Method” is “2nd Day Air”
+        SoftAssert softAssertShipping = new SoftAssert();
         WebElement shippingMethodVerification = driver.findElement(By.xpath("//li[@class='shipping-method']"));
-        assert shippingMethodVerification.getText().contains("2nd Day Air") : "Shipping method is not 2nd Day Air";*/
+        assert shippingMethodVerification.getText().contains("2nd Day Air") : "Shipping method is not 2nd Day Air";
 
-        /*// Step 2.37: Verify Total is “$698.00”
+        // Step 2.37: Verify Total is “$698.00”
+        SoftAssert OrderTotal = new SoftAssert();
         WebElement orderTotalVerification = driver.findElement(By.xpath("//span[@class='value-summary']//strong"));
         assert orderTotalVerification.getText().equals("$698.00") : "Total is not $698.00";
-*/
+
         // Step 2.38: Click on “CONFIRM”
         clickOnElement(By.xpath("//button[@onclick='ConfirmOrder.save()']"));
 
 
-        /*// Step 2.39: Verify the Text “Thank You”
+        // Step 2.39: Verify the Text “Thank You”
+        SoftAssert softAssertThankYou = new SoftAssert();
         WebElement thankYouText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h1[text()='Thank you']")));
-        assert thankYouText.isDisplayed() : "Thank you text is not displayed";*/
+        assert thankYouText.isDisplayed() : "Thank you text is not displayed";
 
-        /*// Step 2.40: Verify the message “Your order has been successfully processed!”
+        // Step 2.40: Verify the message “Your order has been successfully processed!”
+        SoftAssert softAssertSuccessMsg = new SoftAssert();
         WebElement orderSuccessMessage = driver.findElement(By.xpath("//strong[text()='Your order has been successfully processed!']"));
-        assert orderSuccessMessage.isDisplayed() : "Order success message is not displayed";*/
+        assert orderSuccessMessage.isDisplayed() : "Order success message is not displayed";
 
         // Step 2.41: Click on “CONTINUE”
         clickOnElement(By.xpath("//button[@onclick='setLocation(\"/\")']"));
 
 
-        /*// Step 2.42: Verify the text “Welcome to our store”
+        // Step 2.42: Verify the text “Welcome to our store”
         WebElement welcomeToStoreText = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//h2[text()='Welcome to our store']")));
-        assert welcomeToStoreText.isDisplayed() : "Welcome to our store text is not displayed";*/
+        assert welcomeToStoreText.isDisplayed() : "Welcome to our store text is not displayed";
 
         // Step 2.43: Click on “Logout” link
         WebElement logoutLink = driver.findElement(By.xpath("//a[text()='Log out']"));
         logoutLink.click();
 
-        /*// Step 2.44: Verify the URL is “https://demo.nopcommerce.com/”
-        assert driver.getCurrentUrl().equals("https://demo.nopcommerce.com/") : "URL is not https://demo.nopcommerce.com/";*/
+        // Step 2.44: Verify the URL is “https://demo.nopcommerce.com/”
+        assert driver.getCurrentUrl().equals("https://demo.nopcommerce.com/") : "URL is not https://demo.nopcommerce.com/";
     }
 }
