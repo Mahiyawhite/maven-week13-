@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fea854a5-611c-4d77-b8ab-c114d6c43535" name="Changes" comment="my push to repo">
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/ResultPage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/Page.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/main/java/com/nopcommerce/driverfactory/ManageDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/main/java/com/nopcommerce/propertyreader/PropertyReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/main/java/com/nopcommerce/utility/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testbase/TestBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/Electronics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/TestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/TopMenuTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/resources/runners/electronics.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/resources/runners/testsuite.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/DataSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/StartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/StartPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testsuite/VisaConfirmationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/gov/uk/check/visa/testsuite/VisaConfirmationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/resources/runners/smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/runners/smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/DurationOfStayPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/FamilyImmigrationStatusPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/WorkTypePage.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,7 +168,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717207122874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="my push to repo">
+      <option name="closed" value="true" />
+      <created>1717452498060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717452498060</updated>
+    </task>
+    <task id="LOCAL-00004" summary="my push to repo">
+      <option name="closed" value="true" />
+      <created>1717452538469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717452538469</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
