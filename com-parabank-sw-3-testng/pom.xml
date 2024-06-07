@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.cvlibrary</groupId>
-  <artifactId>cv-library-uk</artifactId>
+  <groupId>org.example</groupId>
+  <artifactId>com-parabank-sw-3-testng</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>cv-library-uk</name>
+  <name>com-parabank-sw-3-testng</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -21,7 +21,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.13.2</version>
+      <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
     <dependency>
@@ -35,11 +35,11 @@
       <version>${selenium.version}</version>
     </dependency>
     <dependency>
-    <!--https://mvnrepository.com/artifact/org.testng/testng-->
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.9.0</version>
-    <scope>test</scope>
+      <!--https://mvnrepository.com/artifact/org.testng/testng-->
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.9.0</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>com.github.javafaker</groupId>
