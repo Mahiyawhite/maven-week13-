@@ -2,13 +2,13 @@ package com.cvlibrary.testsuite;
 
 import com.cvlibrary.pages.HomePage;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class JobSearchTest extends DataSet {
 
+        HomePage homePage = new HomePage(driver);
 
-    HomePage homePage = new HomePage(driver);
+
     @Test(dataProvider = "jobSearchData", dataProviderClass = JobSearchTest.class)
     public void verifyJobSearchResultUsingDifferentDataSet(String jobTitle,
                                                            String location,
@@ -33,11 +33,7 @@ public class JobSearchTest extends DataSet {
         homePage.selectSalaryType(salaryType);
         homePage.selectJobType(jobType);
         homePage.clickFindJobsButton();
-
-        String actualMsg = homePage.getResultText();
-        Assert.assertTrue(true);
-        actualMsg.contains(result);
-
+        homePage.getResultText(result);
     }
 }
 

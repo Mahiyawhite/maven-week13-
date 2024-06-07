@@ -5,20 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fea854a5-611c-4d77-b8ab-c114d6c43535" name="Changes" comment="my push to repo">
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/main/java/com/parabank/pagefactory/ManageDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/main/java/com/parabank/propertyreader/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/main/java/com/parabank/utility/Utility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/test/java/com/parabank/testbase/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/test/java/com/parabank/testsuite/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/test/java/com/parabank/testsuite/RegisterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/test/java/resources/propertiesfile/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../com-parabank-sw-3-testng/src/test/java/resources/runners/smoke.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../cv-library-uk/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../tutorialninja-we13/src/main/java/org/example/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../cv-library-uk-wk13/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/ResultPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/main/java/com/cvlibrary/pages/ResultPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../cv-library-uk/src/test/java/com/cvlibrary/testsuite/JobSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/DurationOfStayPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/FamilyImmigrationStatusPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/ReasonForTravelPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/gov/uk/check/visa/pages/WorkTypePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/Electronics.java" beforeDir="false" afterPath="$PROJECT_DIR$/../nopcommerce-wk13/src/test/java/com/nopcommerce/testsuite/Electronics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +69,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/sanity.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card.executor&quot;: &quot;Run&quot;,
@@ -63,7 +83,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.VisaConfirmationTest">
+  <component name="RunManager" selected="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/sanity.xml">
     <configuration name="C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="home-office-visa-check" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/runners/regression.xml" />
@@ -74,9 +94,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/sanity.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="home-office-visa-check" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/runners/visaconfirmationtest.xml" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/resources/runners/sanity.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -139,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/sanity.xml" />
         <item itemvalue="TestNG.VisaConfirmationTest" />
         <item itemvalue="TestNG.VisaConfirmationTest.anAustralianComingToUKForTourism" />
         <item itemvalue="TestNG.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths" />
         <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/regression.xml" />
-        <item itemvalue="TestNG.C:/HOMEWORK/testng-week13hw/home-office-visa-check/src/test/java/resources/runners/visaconfirmationtest.xml" />
       </list>
     </recent_temporary>
   </component>

@@ -18,7 +18,6 @@ public class HomePage extends Utility {
     public By salaryTypeSelect = By.id("salarytype");
     public By jobTypeSelect = By.id("tempperm");
     public By findJobsButton = By.id("hp-search-btn");
-
     public By resultText = By.xpath("//h1[@class='search-header__title']");
 
 
@@ -26,7 +25,6 @@ public class HomePage extends Utility {
         super();
 
     }
-
 
     public void JobSearchPage(WebDriver driver) {
         ManageDriver.driver = driver;
@@ -68,8 +66,8 @@ public class HomePage extends Utility {
         driver.findElement(findJobsButton).click();
     }
 
-    public String getResultText() {
-        return driver.findElement(resultText).getText();
-    }
+    public void getResultText(String text) {
+        driver.findElement(resultText).getText();
 
+    }
 }

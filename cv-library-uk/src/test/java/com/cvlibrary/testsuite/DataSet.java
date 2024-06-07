@@ -7,7 +7,6 @@ public class DataSet extends TestBase {
 
     @DataProvider(name = "jobSearchData")
     public Object[][] createData1() {
-
         return new Object[][]{
                 {"Tester", "Harrow, Greater London", "5 mile", "30000", "500000", "Per annum", "Permanent","Permanent Tester jobs in Harrow"},
                 {"Bank Manager", "Wembley, Greater London", "10 mile", "20000", "300000", "per month", "contract", "contract Bank Manager jobs in Wembley"},
@@ -16,7 +15,6 @@ public class DataSet extends TestBase {
                 {"Environmental Officer", "Edgware, Greater London", "1 mile", "15000", "200000", "per hour", "apprenticeship", "apprenticeship Environmental Officer jobs in Edgware"}
         };
     }
-
 }
 
 

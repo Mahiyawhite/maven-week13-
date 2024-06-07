@@ -174,10 +174,11 @@ public class Electronics extends TestBase {
         //2.26 Click on “CHECKOUT”
         clickOnElement(By.xpath("//button[@id='checkout']"));
 
-        /*//2.27 Fill the Mandatory fields
-        driver.findElement(By.xpath("//*[@id='BillingNewAddress_FirstName']")).sendKeys("");
+        //2.27 Fill the Mandatory fields
+        driver.findElement(By.cssSelector("#BillingNewAddress_FirstName")).sendKeys("kavya");
+        /*driver.findElement(By.cssSelector("#BillingNewAddress_FirstName")).sendKeys("");
         driver.findElement(By.xpath("//*[@id='BillingNewAddress_LastName']")).sendKeys("");
-        driver.findElement(By.xpath("//*[@id='BillingNewAddress_Email']")).sendKeys(emailId);
+        driver.findElement(By.xpath("//*[@id='BillingNewAddress_Email']")).sendKeys();
         selectByVisibleTextFromDropDown(By.xpath("//*[@id='BillingNewAddress_CountryId']"),"London");
         driver.findElement(By.xpath("//*[@id='BillingNewAddress_CountryId']")).sendKeys("London");
         driver.findElement(By.xpath("//*[@id='BillingNewAddress_City']")).sendKeys("slough");
@@ -189,12 +190,17 @@ public class Electronics extends TestBase {
         clickOnElement(By.cssSelector("div[id='billing-buttons-container']>button:nth-of-type(2)"));
 
         // Step 2.29: Click on Radio Button “2nd Day Air ($0.00)”
-        WebElement secondDayAirRadioButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("shippingoption_2")));
-        secondDayAirRadioButton.click();
+        driver.findElement(By.cssSelector("#BillingNewAddress_FirstName")).sendKeys("Mona");
+        driver.findElement(By.cssSelector("#BillingNewAddress_LastName")).sendKeys("Mehta");
+        driver.findElement(By.cssSelector("#BillingNewAddress_Email")).sendKeys(emailId);
+        driver.findElement(By.cssSelector("#BillingNewAddress_CountryId")).sendKeys("United Kingdom");
+        driver.findElement(By.cssSelector("#BillingNewAddress_City")).sendKeys("London");
+        driver.findElement(By.cssSelector("#BillingNewAddress_Address1")).sendKeys("22, King Street");
+        driver.findElement(By.cssSelector("#BillingNewAddress_ZipPostalCode")).sendKeys("uk8 0lk");
+        driver.findElement(By.cssSelector("#BillingNewAddress_PhoneNumber")).sendKeys("07950209041");
 
         // Step 2.30: Click on “CONTINUE”
-        WebElement shippingMethodContinueButton = driver.findElement(By.xpath("//button[@onclick='ShippingMethod.save()']"));
-        shippingMethodContinueButton.click();
+        driver.findElement(By.xpath("//*[@id='billing-buttons-container']/button[2]")).click();
 
         // Step 2.31: Select Radio Button “Credit Card”
         WebElement creditCardRadioButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("paymentmethod_1")));

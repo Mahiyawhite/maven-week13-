@@ -1,25 +1,24 @@
 package com.cvlibrary.pages;
 
-import com.cvlibrary.pagefactory.ManageDriver;
 import com.cvlibrary.utility.Utility;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.PageFactory;
+import dev.failsafe.internal.util.Assert;
+import org.openqa.selenium.By;
 
 public class ResultPage extends Utility {
-    public ResultPage(WebDriver driver) {
-        ManageDriver.driver = driver;
-        PageFactory.initElements(driver, this);
+
+    public By resultText = By.xpath("//h1[@class='search-header__title']");
+
+    public String getMessage(){
+        return getTextFromElement(By.xpath("//h1[@class='search-header__title']"));
     }
 
-    WebElement resultText1;
+    public void verifyTextSuccessfully(String expectedMessage) {
+       String actualMessage = getMessage();
+        Assert.isTrue(Boolean.parseBoolean(actualMessage),expectedMessage);
 
-    public void verifyTheResults(String expected) {
-        String actual = resultText1.getText();
-        if (!actual.contains(expected)) {
-            throw new AssertionError("Expected text not found! Expected: " + expected + ", but found: " + actual);
-        }
     }
+
+
 }
 
 
